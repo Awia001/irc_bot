@@ -3,8 +3,8 @@ import socket
 SERVER = "irc.w3.org"
 NICK = "AdamBot"
 CHAN = "#coolkids", "#coolkidstest"
-username = ""
-msg = ""
+username = None
+msg = None
 
 irc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #irc.settimeout(2)
